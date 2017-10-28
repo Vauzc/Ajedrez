@@ -9,6 +9,7 @@
 | Nombre                     | Github nickname |
 |----------------------------|-----------------|
 | Andrés Felipe Umaña Bernal |   Andres2792    |
+| Camilo Andrés Usuga Mora   |   catwilo       |
 
 # Introducción
 
