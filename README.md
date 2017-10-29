@@ -28,11 +28,11 @@
 
 ## General
 
-<Crear un programa en el que se facilite el aprendizaje del ajedrez.>
+Crear un programa en el que se facilite el aprendizaje del ajedrez.
 
 ## Específicos
 
-<"Diseñar" tacticas, problemas y fantasías como alternativa en el aprendizaje del deporte.>
+"Diseñar" tacticas, problemas y fantasías como alternativa en el aprendizaje del deporte.
 
 # Requisitos
 
