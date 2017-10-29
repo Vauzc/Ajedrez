@@ -6,9 +6,9 @@
 
 <Complete la siguiente tabla>
 
-| Nombre | Github nickname |
-|--------|-----------------|
-|        |                 |
+| Nombre                     | Github nickname |
+|----------------------------|-----------------|
+| Andrés Felipe Umaña Bernal |   Andres2792    |
 
 # Introducción
 
