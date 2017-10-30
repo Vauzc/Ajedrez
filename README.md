@@ -4,9 +4,9 @@
 
 | Nombre                     | Github nickname |
 |----------------------------|-----------------|
-| Andrés Felipe Umaña Bernal |   _Andres2792   |
-| Camilo Andrés Usuga Mora   |   _ Catwilo_    |
-| Valentina Ñústez Castaño   |   _Vauzc_       |
+| Andrés Felipe Umaña Bernal |   Andres2792    |
+| Camilo Andrés Usuga Mora   |   Catwilo       |
+| Valentina Ñústez Castaño   |   Vauzc         |
 
 # Introducción
 
@@ -15,17 +15,22 @@
 En el juego del Ajedrez siempre se llega a una situacion donde quedan 7 fichas o menos, esto significa que siempre hay un posible final donde se mueven perfectamente las piezas y asi no se extiende la partida, esta consecución de movimientos es la solcuion que busca nuestro proyecto enseñar a sus usuarios y asi mejorar su nivel en dicho juego y al mismo tiempo ayudar a terminar partidas de forma satisfactoria.
 
 ## Marco teórico
+El ajedrez es un juego de dos perdonas , las cuales cada una dispone de 16 piezas que se colocan sobre un tablero de 64 casillas con el objetivo de derrocar al rey del adversario mediante jugadas estrategicas. Los beneficios de este juego son: Fomenta la capacidad organizativa y el equilibrio entre lo racional y lo emocional, aumenta la creatividad, otorga al jugador previsión, prudencia, precaución y coraje, potencia la memoria, desarrolla la creatividad, mejora la obediencia y la capacidad de analizar situaciones.
 
-<Sustento teórico del proyecto. Referencias: artículos, sitios web>
+
+Referencias:
+- http://www.ajedrezypsicologia.com/los-beneficios-de-aprenderajedrez/
+- http://noticias.universia.ad/cultura/noticia/2015/05/26/1125753/10-beneficios-cerebrales-jugar-ajedrez.html
+- Grandes temas del ajedrez. Bogotá: Ed. Centauro, 1989.
 
 ## Antecedentes
-### Páginas:
+Páginas:
 - Chess: https://www.chess.com
 - Chessable: https://www.chessable.com
 - Chessclub: https://www.chessclub.com
 - Lichess: https://lichess.org
 
-### Programas y apps:
+Programas y apps:
 - El pequeño Fritz (Programa)
 - Problemas de ajedrez (app)
 - CT-ART (táctica en Ajedrez) (app)
@@ -34,11 +39,11 @@ En el juego del Ajedrez siempre se llega a una situacion donde quedan 7 fichas o
 - Táctica de ajedrez (app)
 - My Chess Puzzles (app)
 
-### Libros:
+Libros:
 - Grandes temas del ajedrez
 - La magia del ajedrez
 
-### Repositorios
+Repositorios
 - https://github.com/Chess-Variants-Training/Chess-Variants-Training.git
 - https://github.com/ornicar/chessground.git
 - https://github.com/kin3tik/Chess.git
@@ -57,18 +62,12 @@ promover la practica del ajedrez.
 
 # Requisitos
 Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
-### Hardware
+
 Ketai
-### I/O
 Simple Multi-Touch (SMT)
-SelectFile
-Drop
-ezGestures
+ezGesturesGifAnimation
 GifAnimation
 OBJExport
-### Simulation
-AI for 2D Games
-### Utilities
-Mouse 2D Transformations
-### Math
-gwoptics
+SelectFile
+Drop
+
