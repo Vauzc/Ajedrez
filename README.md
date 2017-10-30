@@ -4,9 +4,9 @@
 
 | Nombre                     | Github nickname |
 |----------------------------|-----------------|
-| Andrés Felipe Umaña Bernal |   Andres2792    |
-| Camilo Andrés Usuga Mora   |   Catwilo       |
-| Valentina Ñústez Castaño   |   Vauzc         |
+| Andrés Felipe Umaña Bernal |   _Andres2792   |
+| Camilo Andrés Usuga Mora   |   _ Catwilo_    |
+| Valentina Ñústez Castaño   |   _Vauzc_       |
 
 # Introducción
 
