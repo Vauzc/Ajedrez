@@ -46,6 +46,8 @@ Crear un programa en el que se facilite el aprendizaje del ajedrez.
 ## Específicos
 
 "Diseñar" tacticas, problemas y fantasías como alternativa en el aprendizaje del deporte.
+Facilitar el apredizaje del ajedrez.
+promover la practica del ajedrez.
 
 # Requisitos
 
