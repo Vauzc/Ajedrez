@@ -53,4 +53,10 @@ promover la practica del ajedrez.
 Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
 
 Ketai
+Simple Multi-Touch (SMT)
+ezGesturesGifAnimation
+GifAnimation
+OBJExport
+SelectFile
+Drop
 <Indique el lenguaje y los requerimientos esperados de la aplicación. Liste las [librerías de Processing](https://processing.org/reference/libraries/) que se emplearían para su desarrollo.>
