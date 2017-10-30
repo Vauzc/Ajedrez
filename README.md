@@ -65,12 +65,19 @@ Crear un programa en el que se facilite el aprendizaje del ajedrez.
 
 # Requisitos
 Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
-
+### Hardware
 - Ketai
+### I/O
 - Simple Multi-Touch (SMT)
 - ezGesturesGifAnimation
 - GifAnimation
 - OBJExport
+### Simulation
+- AI for 2D Games
+### Utilities
+-Mouse 2D Transformations
+### Math
+- gwoptics
 - SelectFile
 - Drop
 
