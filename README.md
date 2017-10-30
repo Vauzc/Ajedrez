@@ -37,6 +37,12 @@ Programas y apps:
 Libros:
 - Grandes temas del ajedrez
 - La magia del ajedrez
+
+Repositorios
+- https://github.com/Chess-Variants-Training/Chess-Variants-Training.git
+- https://github.com/ornicar/chessground.git
+- https://github.com/kin3tik/Chess.git
+- https://github.com/kecastro/ProcessingChess.git
 # Objetivos
 
 ## General
