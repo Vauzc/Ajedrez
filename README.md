@@ -63,11 +63,11 @@ promover la practica del ajedrez.
 # Requisitos
 Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
 
-Ketai
-Simple Multi-Touch (SMT)
-ezGesturesGifAnimation
-GifAnimation
-OBJExport
-SelectFile
-Drop
+- Ketai
+- Simple Multi-Touch (SMT)
+- ezGesturesGifAnimation
+- GifAnimation
+- OBJExport
+- SelectFile
+- Drop
 
