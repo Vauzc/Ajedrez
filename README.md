@@ -19,13 +19,13 @@ En el juego del Ajedrez siempre se llega a una situacion donde quedan 7 fichas o
 <Sustento teórico del proyecto. Referencias: artículos, sitios web>
 
 ## Antecedentes
-Páginas:
+### Páginas:
 - Chess: https://www.chess.com
 - Chessable: https://www.chessable.com
 - Chessclub: https://www.chessclub.com
 - Lichess: https://lichess.org
 
-Programas y apps:
+### Programas y apps:
 - El pequeño Fritz (Programa)
 - Problemas de ajedrez (app)
 - CT-ART (táctica en Ajedrez) (app)
@@ -34,11 +34,11 @@ Programas y apps:
 - Táctica de ajedrez (app)
 - My Chess Puzzles (app)
 
-Libros:
+### Libros:
 - Grandes temas del ajedrez
 - La magia del ajedrez
 
-Repositorios
+### Repositorios
 - https://github.com/Chess-Variants-Training/Chess-Variants-Training.git
 - https://github.com/ornicar/chessground.git
 - https://github.com/kin3tik/Chess.git
