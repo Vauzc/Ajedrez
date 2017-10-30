@@ -23,9 +23,24 @@
 <Sustento teórico del proyecto. Referencias: artículos, sitios web>
 
 ## Antecedentes
+Páginas:
+- Chess: https://www.chess.com
+- Chessable: https://www.chessable.com
+- Chessclub: https://www.chessclub.com
+- Lichess: https://lichess.org
 
-<Aplicaciones similares, url's de los repos>
+Programas y apps:
+- El pequeño Fritz (Programa)
+- Problemas de ajedrez (app)
+- CT-ART (táctica en Ajedrez) (app)
+- Chess King (app)
+- Puzzles ajedrez (app)
+- Táctica de ajedrez (app)
+- My Chess Puzzles (app)
 
+Libros:
+- Grandes temas del ajedrez
+- La magia del ajedrez
 # Objetivos
 
 ## General
