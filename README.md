@@ -57,12 +57,18 @@ promover la practica del ajedrez.
 
 # Requisitos
 Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
-
+## Hardware
 Ketai
+## I/O
 Simple Multi-Touch (SMT)
-ezGesturesGifAnimation
-GifAnimation
-OBJExport
 SelectFile
 Drop
-<Indique el lenguaje y los requerimientos esperados de la aplicación. Liste las [librerías de Processing](https://processing.org/reference/libraries/) que se emplearían para su desarrollo.>
+ezGestures
+GifAnimation
+OBJExport
+## Simulation
+AI for 2D Games
+## Utilities
+Mouse 2D Transformations
+## Math
+gwoptics
