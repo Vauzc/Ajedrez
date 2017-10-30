@@ -16,7 +16,7 @@
 
 ## Problemática
 
-<Descripción del problema que se busca resolver>
+En el juego del Ajedrez siempre se llega a una situacion donde quedan 7 fichas o menos, esto significa que siempre hay un posible final donde se mueven perfectamente las piezas, esta solucion es la solcuion que busca nuestro proyecto enseñar a sus usuarios y asi mejorar su nivel en dicho juego.
 
 ## Marco teórico
 
