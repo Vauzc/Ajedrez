@@ -75,7 +75,7 @@ Usaremos Processing y de este manejaremos las librerias listadas acontinuacion:
 ### Simulation
 - AI for 2D Games
 ### Utilities
--Mouse 2D Transformations
+- Mouse 2D Transformations
 ### Math
 - gwoptics
 - SelectFile
