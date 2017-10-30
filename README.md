@@ -9,10 +9,9 @@
 | Valentina Ñústez Castaño   |   Vauzc         |
 
 # Introducción
-
-## Problemática
-
 En el juego del Ajedrez siempre se llega a una situacion donde quedan 7 fichas o menos, esto significa que siempre hay un posible final donde se mueven perfectamente las piezas y asi no se extiende la partida, esta consecución de movimientos es la solcuion que busca nuestro proyecto enseñar a sus usuarios y asi mejorar su nivel en dicho juego y al mismo tiempo ayudar a terminar partidas de forma satisfactoria.
+## Problemática
+- Mucha estrategia y poca táctica
 
 ## Marco teórico
 El ajedrez es un juego de dos perdonas , las cuales cada una dispone de 16 piezas que se colocan sobre un tablero de 64 casillas con el objetivo de derrocar al rey del adversario mediante jugadas estrategicas. Los beneficios de este juego son: Fomenta la capacidad organizativa y el equilibrio entre lo racional y lo emocional, aumenta la creatividad, otorga al jugador previsión, prudencia, precaución y coraje, potencia la memoria, desarrolla la creatividad, mejora la obediencia y la capacidad de analizar situaciones.
