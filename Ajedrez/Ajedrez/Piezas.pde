@@ -8,4 +8,20 @@ abstract class Piezas {
 
     trans = new PVector(x, y);
   }
+  public void draw() {
+    pushStyle();
+    pushMatrix();
+    fill(255);
+    translate(translation().x, translation().y);
+    popMatrix();
+    popStyle();
+  }
+   public PVector translation() {
+    return trans;
+  }
+
+  public void setTranslation(float x, float y) {
+    trans.x = x;
+    trans.y = y;
+  }
 }
