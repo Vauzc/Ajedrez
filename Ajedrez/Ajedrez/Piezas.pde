@@ -4,7 +4,7 @@ abstract class Piezas {
     this(10, 10);
   }
 
-  public Shape(float x, float y) {
+  public Piezas(float x, float y) {
 
     trans = new PVector(x, y);
   }
