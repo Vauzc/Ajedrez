@@ -16,8 +16,8 @@ Piezas[] PiezasN;
 
 
  void setup(){
-   PiezasB = new Piezas[15];
-   PiezasN = new Piezas[15];
+   PiezasB = new Piezas[16];
+   PiezasN = new Piezas[16];
    background(0);
    fullScreen();
    img = loadImage("t1.png");
