@@ -1,4 +1,4 @@
- class Alfil extends Piezas {
+class Alfil extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected PImage Color;
