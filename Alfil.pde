@@ -18,13 +18,11 @@ public Alfil() {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-    Color = loadImage("rb.png");
-    image(rb, 0, 0, height/10, height/10);
-    }   else    {
-    Color = loadImage("rn.png");
-    image(rn, 0, 0, height/10, height/10);
+      image(ab, 0, 0, height/10, height/10);
+    }else{
+      image(an, 0, 0, height/10, height/10);
+      }
     }
-  }
   
   @Override
   void move(float x, float y){
