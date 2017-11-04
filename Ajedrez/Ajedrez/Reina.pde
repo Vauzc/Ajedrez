@@ -1,9 +1,9 @@
- class Peon extends Piezas {
+ class Reina extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected float PosX,PosY;
 
-public Peon(float x, float y, boolean Dye) {
+public Reina(float x, float y, boolean Dye) {
     super(x,y,Dye);
   
     Dye = dye;
@@ -15,9 +15,9 @@ public Peon(float x, float y, boolean Dye) {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-      image(cb, 0, 0, height/10, height/10);
+      image(db, 0, 0, height/10, height/10);
     }else{
-      image(cn, 0, 0, height/10, height/10);
+      image(dn, 0, 0, height/10, height/10);
       }
     }
   
