@@ -15,9 +15,9 @@ public Torre(float x, float y, boolean Dye) {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-      image(tb, 0, 0, height/10, height/10);
+      image(tb, 0, 0, height/9, height/9);
     }else{
-      image(tn, 0, 0, height/10, height/10);
+      image(tn, 0, 0, height/9, height/9);
       }
     }
   

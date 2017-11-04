@@ -15,9 +15,9 @@ public Reina(float x, float y, boolean Dye) {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-      image(db, 0, 0, height/10, height/10);
+      image(db, 0, 0, height/9, height/9);
     }else{
-      image(dn, 0, 0, height/10, height/10);
+      image(dn, 0, 0, height/9, height/9);
       }
     }
   

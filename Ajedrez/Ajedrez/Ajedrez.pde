@@ -122,12 +122,6 @@ void draw(){
         t--;
       }
      
-     for (int i =0; i<8;i++){
-      for(int j =0; j<8; j++){
-       ellipse(Mx[i][j],My[i][j],10,10);
-  }
-}
-     
  }
  
  

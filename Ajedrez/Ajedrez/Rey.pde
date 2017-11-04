@@ -15,9 +15,9 @@ public Rey(float x, float y, boolean Dye) {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-      image(rb, 0, 0, height/10, height/10);
+      image(rb, 0, 0, height/9, height/9);
     }else{
-      image(rn, 0, 0, height/10, height/10);
+      image(rn, 0, 0, height/9, height/9);
       }
     }
   

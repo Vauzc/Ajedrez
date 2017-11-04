@@ -15,9 +15,9 @@ public Peon(float x, float y, boolean Dye) {
   @Override
    void drawFigure(boolean dye){
     if(dye==true){
-      image(cb, 0, 0, height/10, height/10);
+      image(cb, 0, 0, height/9, height/9);
     }else{
-      image(cn, 0, 0, height/10, height/10);
+      image(cn, 0, 0, height/9, height/9);
       }
     }
   
