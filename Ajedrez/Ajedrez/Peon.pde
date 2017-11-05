@@ -5,7 +5,6 @@ protected float PosX,PosY;
 
 public Peon(float x, float y, boolean Dye) {
     super(x,y,Dye);
-  
     Dye = dye;
   }
 

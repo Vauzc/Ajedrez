@@ -3,19 +3,14 @@ protected PVector trans;
 protected boolean dye;
 protected PImage Color;
  
- public Piezas() {
-    this(100,10,true);
-  }
+
 
  public Piezas(float x, float y, boolean c) {
 
     trans = new PVector(x, y);
-    c = dye;
+    dye = c;
     
   }
-
-
-
 
 
 public void draw() {
