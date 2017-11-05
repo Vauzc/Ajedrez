@@ -45,201 +45,201 @@ public void setTranslation(int x, int y) {
 
 
 public void Transformation(String Identity){
-    int x=-1,y=-1;
+    int a=7,b=7;
     if (mousePressed && mouseButton == LEFT) {
       //Seleccion piezas Negras
       
       if (Identity == "PN1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*(i))&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[8].setTranslation(x, y);
+        PiezasN[8].setTranslation(a, b);
       }     
       else if (Identity == "PN2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[9].setTranslation(x, y);
+        PiezasN[9].setTranslation(a, b);
       }
       else if (Identity == "PN3") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[10].setTranslation(x, y);
+        PiezasN[10].setTranslation(a, b);
       }     
       else if (Identity == "PN4") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[11].setTranslation(x, y);
+        PiezasN[11].setTranslation(a, b);
       }
       else if (Identity == "PN5") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[12].setTranslation(x, y);
+        PiezasN[12].setTranslation(a, b);
       }     
       else if (Identity == "PN6") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[13].setTranslation(x, y);
+        PiezasN[13].setTranslation(a, b);
       }      
       else if (Identity == "PN7") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[14].setTranslation(x, y);
+        PiezasN[14].setTranslation(a, b);
       }     
       else if (Identity == "PN8") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[15].setTranslation(x, y);
+        PiezasN[15].setTranslation(a, b);
       }
       else if (Identity == "AN1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[2].setTranslation(x, y);
+        PiezasN[2].setTranslation(a, b);
       } 
       else if (Identity == "AN2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[3].setTranslation(x, y);
+        PiezasN[3].setTranslation(a, b);
       }       
       else if (Identity == "TN1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[6].setTranslation(x, y);
+        PiezasN[6].setTranslation(a, b);
       } 
       else if (Identity == "TN2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[7].setTranslation(x, y);
+        PiezasN[7].setTranslation(a, b);
       }       
       else if (Identity == "CN1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasN[4].setTranslation(x, y);
+        PiezasN[4].setTranslation(a, b);
       } 
       else if (Identity == "CN2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[5].setTranslation(x, y);
+        PiezasN[5].setTranslation(a, b);
       }      
       else if (Identity == "RN") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                 a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[0].setTranslation(x, y);
+        PiezasN[0].setTranslation(a, b);
       } 
       else if (Identity == "QN") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasN[1].setTranslation(x, y);
+        PiezasN[1].setTranslation(a, b);
       }  
       
       //Seleccion piezas Blancas
@@ -247,195 +247,195 @@ public void Transformation(String Identity){
       else if (Identity == "PB1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }
-        PiezasB[8].setTranslation(x, y);
+        PiezasB[8].setTranslation(a, b);
       }     
       else if (Identity == "PB2") {
        for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[9].setTranslation(x, y);
+        PiezasB[9].setTranslation(a, b);
       }
       else if (Identity == "PB3") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[10].setTranslation(x, y);
+        PiezasB[10].setTranslation(a, b);
       }     
       else if (Identity == "PB4") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[11].setTranslation(x, y);
+        PiezasB[11].setTranslation(a, b);
       }
       else if (Identity == "PB5") {
          for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[12].setTranslation(x, y);
+        PiezasB[12].setTranslation(a, b);
       }     
       else if (Identity == "PB6") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[13].setTranslation(x, y);
+        PiezasB[13].setTranslation(a, b);
       }      
       else if (Identity == "PB7") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[14].setTranslation(x, y);
+        PiezasB[14].setTranslation(a, b);
       }     
       else if (Identity == "PB8") {
          for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[15].setTranslation(x, y);
+        PiezasB[15].setTranslation(a, b);
       }
       else if (Identity == "AB1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[2].setTranslation(x, y);
+        PiezasB[2].setTranslation(a, b);
       } 
       else if (Identity == "AB2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }  
-        PiezasB[3].setTranslation(x, y);
+        PiezasB[3].setTranslation(a, b);
       }       
       else if (Identity == "TB1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[6].setTranslation(x, y);
+        PiezasB[6].setTranslation(a, b);
       } 
       else if (Identity == "TB2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }
-        PiezasB[7].setTranslation(x, y);
+        PiezasB[7].setTranslation(a, b);
       }       
       else if (Identity == "CB1") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[4].setTranslation(x, y);
+        PiezasB[4].setTranslation(a, b);
       } 
       else if (Identity == "CB2") {
         for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
-        PiezasB[5].setTranslation(x, y);
+        PiezasB[5].setTranslation(a, b);
       }      
       else if (Identity == "RB") {
           for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             } 
         
-        PiezasB[0].setTranslation(x, y);
+        PiezasB[0].setTranslation(a, b);
       } 
       else if (Identity == "QB") {
           for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
-                  x=i;
+                  a=i;
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  y=i;
+                  b=i;
                 }
             }
-          PiezasB[1].setTranslation(x, y);    
+          PiezasB[1].setTranslation(a, b);    
       }  
   }
 }
