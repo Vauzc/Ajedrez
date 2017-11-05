@@ -83,7 +83,9 @@ public void updateb(int x, int y) { // movimiento
         setTranslation(x, y);
     }
 }
-/*public void updaten(int x, int y) {
+public void updaten(int x, int y) {
+    x=7;
+    y=7;
     if (selectn) {
       for(int i=0;i<7;i++){
               if((mouseX>width/2-height/2+(height/8)*i)&&(mouseX<width/2-height/2+(height/8)*(i+1))){
@@ -119,16 +121,16 @@ public void updateb(int x, int y) { // movimiento
             } 
         setTranslation(x, y);
     }
-} */ 
+} 
   
 public void clickb(int x, int y) {  
     if (trans.x<x&&(trans.x+height/8)>x&&trans.y<y&&(trans.y+height/8)>y) //verifica si esta encima de la pieza
         selectb = !selectb;
   }
-/*public void clickn(int x, int y) {  
-    if (get(x,y)==0&&mousePressed ) 
+public void clickn(int x, int y) {  
+    if (trans.x<x&&(trans.x+height/8)>x&&trans.y<y&&(trans.y+height/8)>y) 
         selectn = !selectn;
-  }/*
+  }
 /*
 public void Transformation(String Identity){
     int a=7,b=7;
