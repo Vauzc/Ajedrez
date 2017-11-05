@@ -56,8 +56,31 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*(i))&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                
+               }    
+             }
             } 
         PiezasN[8].setTranslation(a, b);
       }     
@@ -68,8 +91,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;  
+                }}
             }  
         PiezasN[9].setTranslation(a, b);
       }
@@ -80,8 +124,30 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break; 
+                
+                }}
             }  
         PiezasN[10].setTranslation(a, b);
       }     
@@ -92,8 +158,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[11].setTranslation(a, b);
       }
@@ -104,8 +191,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[12].setTranslation(a, b);
       }     
@@ -116,8 +224,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasN[13].setTranslation(a, b);
       }      
@@ -128,8 +257,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[14].setTranslation(a, b);
       }     
@@ -140,8 +290,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[15].setTranslation(a, b);
       }
@@ -152,8 +323,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[2].setTranslation(a, b);
       } 
@@ -164,8 +356,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasN[3].setTranslation(a, b);
       }       
@@ -176,8 +389,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[6].setTranslation(a, b);
       } 
@@ -188,8 +422,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[7].setTranslation(a, b);
       }       
@@ -200,8 +455,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasN[4].setTranslation(a, b);
       } 
@@ -212,8 +488,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasN[5].setTranslation(a, b);
       }      
@@ -224,8 +521,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasN[0].setTranslation(a, b);
       } 
@@ -236,8 +554,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasN[1].setTranslation(a, b);
       }  
@@ -251,8 +590,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }
         PiezasB[8].setTranslation(a, b);
       }     
@@ -263,8 +623,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[9].setTranslation(a, b);
       }
@@ -275,8 +656,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[10].setTranslation(a, b);
       }     
@@ -287,8 +689,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[11].setTranslation(a, b);
       }
@@ -299,8 +722,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[12].setTranslation(a, b);
       }     
@@ -311,8 +755,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[13].setTranslation(a, b);
       }      
@@ -323,8 +788,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[14].setTranslation(a, b);
       }     
@@ -335,8 +821,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[15].setTranslation(a, b);
       }
@@ -347,8 +854,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[2].setTranslation(a, b);
       } 
@@ -359,8 +887,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }  
         PiezasB[3].setTranslation(a, b);
       }       
@@ -371,9 +920,30 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
                 }
-            } 
+            } }
         PiezasB[6].setTranslation(a, b);
       } 
       else if (Identity == "TB2") {
@@ -383,8 +953,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }
         PiezasB[7].setTranslation(a, b);
       }       
@@ -395,8 +986,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[4].setTranslation(a, b);
       } 
@@ -407,8 +1019,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         PiezasB[5].setTranslation(a, b);
       }      
@@ -419,8 +1052,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             } 
         
         PiezasB[0].setTranslation(a, b);
@@ -432,8 +1086,29 @@ public void Transformation(String Identity){
                 }
           }for(int i=7;i>0;i--){
               if((mouseY<(height/8)*i)&&(mouseY>(height/8)*(i-1))){
-                  b=i;
-                }
+                  switch(i-1){
+                case 7:
+                  b=0;
+                  break;
+                case 6:
+                  b=1;
+                  break;
+                case 5:
+                  b=2;
+                  break;
+                case 4:
+                  b=3;
+                  break;
+                case 3:
+                  b=4;
+                  break;
+                case 2:
+                  b=5;
+                  break;
+                case 1:
+                  b=6;
+                  break;
+                }}
             }
           PiezasB[1].setTranslation(a, b);    
       }  
