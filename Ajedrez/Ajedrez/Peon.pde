@@ -1,15 +1,15 @@
- class Peon extends Piezas {
+class Peon extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected float PosX,PosY;
+protected String identity;
 
-public Peon(float x, float y, boolean Dye) {
-    super(x,y,Dye);
+public Peon(float x, float y, boolean Dye, String Identity ) {
+    super(x,y,Dye,Identity);
+  
     Dye = dye;
+    Identity = identity;
   }
-
- 
-
   
   @Override
    void drawFigure(boolean dye){

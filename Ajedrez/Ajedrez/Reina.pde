@@ -1,12 +1,14 @@
- class Reina extends Piezas {
+class Reina extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected float PosX,PosY;
+protected String identity;
 
-public Reina(float x, float y, boolean Dye) {
-    super(x,y,Dye);
+public Reina(float x, float y, boolean Dye, String Identity ) {
+    super(x,y,Dye,Identity);
   
     Dye = dye;
+    Identity = identity;
   }
 
  
@@ -14,13 +16,14 @@ public Reina(float x, float y, boolean Dye) {
   
   @Override
    void drawFigure(boolean dye){
-    if(dye==true){
+    if(dye == true){
       image(db, 0, 0, height/9, height/9);
-    }else{
+    }else if(dye == false){
       image(dn, 0, 0, height/9, height/9);
       }
+
     }
-  
+       
   
   @Override
   void move(float x, float y){

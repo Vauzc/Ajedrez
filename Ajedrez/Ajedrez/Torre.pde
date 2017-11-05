@@ -1,12 +1,14 @@
- class Torre extends Piezas {
+class Torre extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected float PosX,PosY;
+protected String identity;
 
-public Torre(float x, float y, boolean Dye) {
-    super(x,y,Dye);
+public Torre(float x, float y, boolean Dye, String Identity ) {
+    super(x,y,Dye,Identity);
   
     Dye = dye;
+    Identity = identity;
   }
 
  

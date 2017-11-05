@@ -1,16 +1,15 @@
- class Caballo extends Piezas {
+class Caballo extends Piezas {
 protected PVector trans;
 protected boolean dye;
 protected float PosX,PosY;
+protected String identity;
 
-public Caballo(float x, float y, boolean Dye) {
-    super(x,y,Dye);
+public Caballo(float x, float y, boolean Dye, String Identity ) {
+    super(x,y,Dye,Identity);
   
     Dye = dye;
+    Identity = identity;
   }
-
- 
-
   
   @Override
    void drawFigure(boolean dye){
