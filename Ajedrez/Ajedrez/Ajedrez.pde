@@ -114,6 +114,27 @@ void draw(){
      for (Piezas piezas : PiezasN){
         piezas.draw();
      }
-
+     //if(mousePressed&&get(mouseX,mouseY)==0){
+         for (Piezas piezas : PiezasB){
+            piezas.updateb(mouseX, mouseY);// ejecuta la translación para cada 
+         }
+     /*//}else if(mousePressed&&get(mouseX,mouseY)==255){
+         for (Piezas piezas : PiezasN){
+            piezas.updaten(mouseX, mouseY);
+         }
+     //}*/
+}
      
- }
+
+ 
+ void mousePressed() {
+    //if(mousePressed&&get(mouseX,mouseY)==0){
+       for (Piezas piezas : PiezasB){ //recorre el arreglo para que en clickb se mire si esta encima y ha presionado
+            piezas.clickb(mouseX, mouseY);
+         }
+    /*//}else if(mousePressed&&get(mouseX,mouseY)==255){
+       for (Piezas piezas : PiezasN){
+          piezas.clickn(mouseX, mouseY);
+       }
+     //}*/
+}
