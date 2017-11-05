@@ -5,7 +5,7 @@ protected PImage Color;
 protected float PosX,PosY;
 protected String identity;
 
-public Alfil(float x, float y, boolean Dye, String Identity ) {
+public Alfil(int x, int y, boolean Dye, String Identity ) {
     super(x,y,Dye,Identity);
   
     Dye = dye;
@@ -29,4 +29,9 @@ public Alfil(float x, float y, boolean Dye, String Identity ) {
       PosY=y;
       
   }
+  
+  
+  
+  
+  
  }

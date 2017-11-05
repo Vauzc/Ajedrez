@@ -4,7 +4,7 @@ protected boolean dye;
 protected float PosX,PosY;
 protected String identity;
 
-public Peon(float x, float y, boolean Dye, String Identity ) {
+public Peon(int x, int y, boolean Dye, String Identity ) {
     super(x,y,Dye,Identity);
   
     Dye = dye;

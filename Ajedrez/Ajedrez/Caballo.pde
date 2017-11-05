@@ -4,7 +4,7 @@ protected boolean dye;
 protected float PosX,PosY;
 protected String identity;
 
-public Caballo(float x, float y, boolean Dye, String Identity ) {
+public Caballo(int x, int y, boolean Dye, String Identity) {
     super(x,y,Dye,Identity);
   
     Dye = dye;
@@ -20,12 +20,16 @@ public Caballo(float x, float y, boolean Dye, String Identity ) {
       }
     }
   
-  
-  @Override
+   @Override
   void move(float x, float y){
     
       PosX=x;
       PosY=y;
       
   }
-  }
+  
+  
+  
+  
+  
+ }

@@ -4,7 +4,7 @@ protected boolean dye;
 protected float PosX,PosY;
 protected String identity;
 
-public Reina(float x, float y, boolean Dye, String Identity ) {
+public Reina(int x, int y, boolean Dye, String Identity) {
     super(x,y,Dye,Identity);
   
     Dye = dye;

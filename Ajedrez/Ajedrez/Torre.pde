@@ -4,7 +4,7 @@ protected boolean dye;
 protected float PosX,PosY;
 protected String identity;
 
-public Torre(float x, float y, boolean Dye, String Identity ) {
+public Torre(int x, int y, boolean Dye, String Identity) {
     super(x,y,Dye,Identity);
   
     Dye = dye;
@@ -31,4 +31,4 @@ public Torre(float x, float y, boolean Dye, String Identity ) {
       PosY=y;
       
   }
-  }
+}

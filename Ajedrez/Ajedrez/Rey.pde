@@ -4,7 +4,7 @@ protected boolean dye;
 protected float PosX,PosY;
 protected String identity;
 
-public Rey(float x, float y, boolean Dye, String Identity ) {
+public Rey(int x, int y, boolean Dye, String Identity) {
     super(x,y,Dye,Identity);
   
     Dye = dye;
