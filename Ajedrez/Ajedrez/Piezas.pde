@@ -43,7 +43,7 @@ public void setTranslation(int x, int y) {
 
 
 
-
+/*
 public void updateb(int x, int y) { // movimiento
     x=7;
     y=7;
@@ -82,7 +82,7 @@ public void updateb(int x, int y) { // movimiento
             } 
         setTranslation(x, y);
     }
-}
+}*/
 public void updaten(int x, int y) {
     x=7;
     y=7;
@@ -127,7 +127,7 @@ public void updaten(int x, int y) {
   
 
 //desde aca, intento movimiento perzonalizado
-/*
+
 public void updaterb(int x, int y) { // movimiento
     int t=0;
     
@@ -287,7 +287,7 @@ public void updatepb(int x, int y) {
 }
 
 
-*/
+
 //hasta acá
 
 
