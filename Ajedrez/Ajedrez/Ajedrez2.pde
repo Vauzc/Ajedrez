@@ -14,7 +14,7 @@ PImage pn;
 int fila =8;
 int columna=8;
 int t=7;
-int n=1;
+int n=0;
 int j, k;
 int[][] Mx;
 int[][] My;
@@ -67,7 +67,7 @@ void draw(){
      for (int i =0; i<k;i++){
         PiezasN[i].draw();
      }
-     /*for (int i=0;i<PiezasB.length;i++){
+     for (int i=0;i<PiezasB.length;i++){
           switch(i){
               case 0:
                 PiezasB[0].updaterb(mouseX, mouseY);
@@ -117,11 +117,12 @@ void draw(){
               case 15:
                 PiezasB[15].updatepb(mouseX, mouseY);
                 break;
-            }  
-       */
-     for (int i =0; i<j;i++){
+            }
+     }
+       
+     /*for (int i =0; i<j;i++){
             PiezasB[i].updateb(mouseX, mouseY);// ejecuta la translación para cada 
-         }
+         }*/
      for (int i =0; i<k;i++){
             PiezasN[i].updaten(mouseX, mouseY);
          }
@@ -139,7 +140,7 @@ void draw(){
        }
 }
 
-/*void mouseClicked(){
+void mouseClicked(){
   int x=7;
   int y=7;
   if(get(mouseX,mouseY)==color(0,0,255)){
@@ -178,4 +179,4 @@ void draw(){
             }
      PiezasB[0].setTranslation(x,y); 
   }   
-}*/
+}
